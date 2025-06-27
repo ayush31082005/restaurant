@@ -18,5 +18,4 @@
 ![Screenshot (276)](https://user-images.githubusercontent.com/48250220/191908135-0130d841-0d83-4d94-ae5f-a3f01a5b7257.png)
 ![Screenshot (277)](https://user-images.githubusercontent.com/48250220/191908145-31df506c-13e8-427f-8787-5162100229b1.png)
 # restaurent
-# rest_syst
-# resurent-system
+
