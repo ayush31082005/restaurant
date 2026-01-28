@@ -17,5 +17,138 @@
 ![Screenshot (275)](https://user-images.githubusercontent.com/48250220/191908111-5aebdf44-88e3-4d28-bda0-3d573afbfe1e.png)
 ![Screenshot (276)](https://user-images.githubusercontent.com/48250220/191908135-0130d841-0d83-4d94-ae5f-a3f01a5b7257.png)
 ![Screenshot (277)](https://user-images.githubusercontent.com/48250220/191908145-31df506c-13e8-427f-8787-5162100229b1.png)
-# restaurent
+
+# 🍽️ Restaurant Management System (Laravel)
+
+A complete **Restaurant Management System** built using **PHP Laravel**, designed to manage food items, categories, orders, and users with a clean MVC architecture.
+
+---
+
+## 🚀 Features
+
+* 🔐 Authentication (Login / Register)
+* 👤 Role-based access (Admin / User)
+* 📋 Manage Food Categories
+* 🍔 Manage Food Items (Add / Edit / Delete)
+* 🛒 Order Placement System
+* 📦 Order Management (Admin)
+* 📊 Dashboard
+* 🖼️ Image Upload for Food Items
+* ✅ Validation & Security
+
+---
+
+## 🛠️ Tech Stack
+
+* **Backend:** PHP (Laravel Framework)
+* **Frontend:** Blade Templates
+* **Database:** MySQL
+* **Authentication:** Laravel Auth
+* **Styling:** Bootstrap
+
+---
+
+## 📂 Project Structure
+
+```
+restaurant-project/
+├── app/
+│   ├── Http/Controllers/
+│   ├── Models/
+├── database/
+│   ├── migrations/
+│   └── seeders/
+├── public/
+│   └── images/
+├── resources/
+│   └── views/
+├── routes/
+│   └── web.php
+├── .env
+├── composer.json
+└── README.md
+```
+
+---
+
+## 🔐 Authentication Flow Diagram
+
+```
+User
+ │
+ ▼
+Login / Register
+ │
+ ▼
+Laravel Auth Middleware
+ │
+ ├── Admin Dashboard
+ └── User Menu & Orders
+```
+
+---
+
+## 🍔 Order Flow Diagram
+
+```
+User
+ │
+ ▼
+View Menu
+ │
+ ▼
+Add to Cart
+ │
+ ▼
+Place Order
+ │
+ ▼
+Order Stored in Database
+ │
+ ▼
+Admin Manages Order
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone repository
+git clone https://github.com/your-username/restaurant-laravel.git
+
+# Go to project directory
+cd restaurant-laravel
+
+# Install dependencies
+composer install
+
+# Copy env file
+cp .env.example .env
+
+# Generate app key
+php artisan key:generate
+
+# Configure database in .env
+
+# Run migrations
+php artisan migrate
+
+# Start server
+php artisan serve
+```
+
+---
+
+## 🔮 Future Improvements
+
+* Online payment integration
+* Table reservation system
+* Order status tracking
+* REST API for mobile app
+
+---
+
+
+
 
